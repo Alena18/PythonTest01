@@ -2,8 +2,9 @@ import unittest
 from student import Student
 from datetime import timedelta
 
+
 class TestStudent(unittest.TestCase):
-    
+
     @classmethod
     def setUpClass(cls):
         print("set up class")
